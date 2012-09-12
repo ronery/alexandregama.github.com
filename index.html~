@@ -27,25 +27,26 @@ group: navigation
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-	<h2>Veja todos os posts!</h2>
-	<ul>
-	{% assign pages_list = site.posts %}
-	{% include JB/pages_list %}
-	</ul>
-      </section>
+   <section id="main_content" class="inner">
+	<h3>Últimos posts</h3>
+	  <ul>
+	    {% assign pages_list = site.posts %}
+	    {% include JB/pages_list %}	   	    
+	  </ul>
+    </section>
     </div>
+    
 
     <!-- FOOTER  -->
     <div class="footer">
 			<div class="footer_content">
 				<ul>
-					<li><a href="/about/">eu</a></li>
+					<li><a href="/about/">sobre</a></li>
 					<li><a href="http://twitter.com/alexandregamma" target="_blank">@alexandregamma</a></li>
 					<li><a href="http://github.com/alexandregama" target="_blank">github</a></li>
 					<li><a href="https://gist.github.com/alexandregama" target="_blank">gists</a></li>
 					<li class="feed"><a href="/atom.xml">Feed</a></li>
-					<li class="designed" title="I don't always do design but when I do I do it like a boss">designed by @alexandregama</li>					
+					<li class="designed" title="Sou desenvolvedor, me dá um crédito poxa!">designed by @alexandregama</li>					
 				</ul>
 			</div>
     </div>
